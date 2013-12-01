@@ -207,7 +207,7 @@
                }
             },
             "name" : "Git::NextVersion::Sanitized",
-            "version" : "0.001"
+            "version" : "0.001000"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",

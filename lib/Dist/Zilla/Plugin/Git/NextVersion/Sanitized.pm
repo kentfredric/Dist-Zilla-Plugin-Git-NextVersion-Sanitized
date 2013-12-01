@@ -6,7 +6,7 @@ BEGIN {
   $Dist::Zilla::Plugin::Git::NextVersion::Sanitized::AUTHORITY = 'cpan:KENTNL';
 }
 {
-  $Dist::Zilla::Plugin::Git::NextVersion::Sanitized::VERSION = '0.001';
+  $Dist::Zilla::Plugin::Git::NextVersion::Sanitized::VERSION = '0.001000';
 }
 
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
@@ -34,7 +34,7 @@ Dist::Zilla::Plugin::Git::NextVersion::Sanitized - Sanitize versions handed to y
 
 =head1 VERSION
 
-version 0.001
+version 0.001000
 
 =head1 SYNOPSIS
 

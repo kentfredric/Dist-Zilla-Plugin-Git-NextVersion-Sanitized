@@ -3,7 +3,7 @@ NAME
     handed to you by Git::NextVersion
 
 VERSION
-    version 0.1.0
+    version 0.001
 
 SYNOPSIS
     This exist, mostly because I accidentally keep doing

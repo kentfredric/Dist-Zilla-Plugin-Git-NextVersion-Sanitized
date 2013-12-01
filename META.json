@@ -103,6 +103,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized/issues"
+      },
+      "homepage" : "https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized.git",
+         "web" : "https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized"
+      }
+   },
    "version" : "0.001000",
    "x_BuiltWith" : {
       "modules" : {
@@ -207,7 +218,7 @@
                }
             },
             "name" : "Git::NextVersion::Sanitized",
-            "version" : null
+            "version" : "0.001000"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",

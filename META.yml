@@ -25,6 +25,10 @@ requires:
   perl: 5.006
   strict: 0
   warnings: 0
+resources:
+  bugtracker: https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized/issues
+  homepage: https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized
+  repository: https://github.com/kentfredric/Dist-Zilla-Plugin-Git-NextVersion-Sanitized.git
 version: 0.001000
 x_BuiltWith:
   modules:
@@ -118,7 +122,7 @@ x_Dist_Zilla:
           mantissa: 6
           normal_form: numify
       name: Git::NextVersion::Sanitized
-      version: ~
+      version: 0.001000
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Author::KENTNL/MetaConfig'

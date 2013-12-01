@@ -1,0 +1,28 @@
+NAME
+    Dist::Zilla::Plugin::Git::NextVersion::Sanitized - Sanitize versions
+    handed to you by Git::NextVersion
+
+VERSION
+    version 0.001000
+
+SYNOPSIS
+    This exist, mostly because I accidentally keep doing
+
+        V=2.6.0 dzil release # shit, I mean 2.006000
+
+    Or
+
+        V=2.00001 dzil release # Crap, I can't count, how many 0's is that?
+
+    So this wraps "::Role::Version::Sanitize" around "[Git::NextVersion]"
+
+AUTHOR
+    Kent Fredric <kentfredric@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Kent Fredric
+    <kentfredric@gmail.com>.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

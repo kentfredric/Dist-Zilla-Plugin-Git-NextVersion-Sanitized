@@ -118,7 +118,7 @@ x_Dist_Zilla:
           mantissa: 6
           normal_form: numify
       name: Git::NextVersion::Sanitized
-      version: 0.001000
+      version: ~
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Author::KENTNL/MetaConfig'

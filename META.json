@@ -99,11 +99,11 @@
    "provides" : {
       "Dist::Zilla::Plugin::Git::NextVersion::Sanitized" : {
          "file" : "lib/Dist/Zilla/Plugin/Git/NextVersion/Sanitized.pm",
-         "version" : "0.001"
+         "version" : "v0.1.0"
       }
    },
    "release_status" : "stable",
-   "version" : "0.001",
+   "version" : "0.1.0",
    "x_BuiltWith" : {
       "modules" : {
          "Dist::Zilla::Plugin::Authority" : "1.006",
@@ -203,7 +203,7 @@
             "config" : {
                "Dist::Zilla::Role::Version::Sanitize" : {
                   "mantissa" : "3",
-                  "normal_form" : "numify"
+                  "normal_form" : "normal_3"
                }
             },
             "name" : "Git::NextVersion::Sanitized",

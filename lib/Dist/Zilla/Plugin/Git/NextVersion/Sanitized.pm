@@ -7,6 +7,8 @@ our $VERSION = '0.002000';
 
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
 
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 
 
 
@@ -25,7 +27,6 @@ our $VERSION = '0.002000';
 use Moose;
 extends 'Dist::Zilla::Plugin::Git::NextVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
-
 
 __PACKAGE__->meta->make_immutable;
 no Moose;

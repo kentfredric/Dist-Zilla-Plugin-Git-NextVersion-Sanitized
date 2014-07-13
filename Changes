@@ -1,11 +1,11 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
-0.002000 2014-07-13T21:54:28Z
+0.002000 2014-07-13T21:56:49Z
  [Dependencies::Stats]
  - Dependencies changed since 0.001000, see misc/*.deps* for details
  - build: -1
  - configure: +1 -1 (recommends: +1)
- - develop: +5 -7 (suggests: +2 -1)
+ - develop: +6 -8 (suggests: +2 -1)
  - test: +4 ↓1 (recommends: +4)
 
 0.001000 2013-12-01T10:42:14Z

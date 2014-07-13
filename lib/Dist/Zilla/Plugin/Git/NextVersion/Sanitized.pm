@@ -2,7 +2,9 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::Git::NextVersion::Sanitized;
-$Dist::Zilla::Plugin::Git::NextVersion::Sanitized::VERSION = '0.001001';
+
+our $VERSION = '0.002000';
+
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
 
 
@@ -42,7 +44,7 @@ Dist::Zilla::Plugin::Git::NextVersion::Sanitized - Sanitize versions handed to y
 
 =head1 VERSION
 
-version 0.001001
+version 0.002000
 
 =head1 SYNOPSIS
 

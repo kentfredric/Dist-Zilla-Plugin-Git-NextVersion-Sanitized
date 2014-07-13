@@ -7,6 +7,8 @@ our $VERSION = '0.002000';
 
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
 
+# AUTHORITY
+
 =head1 SYNOPSIS
 
 This exist, mostly because I accidentally keep doing
@@ -25,7 +27,6 @@ L<< C<[Git::NextVersion]>|Dist::Zilla::Plugin::Git::NextVersion >>
 use Moose;
 extends 'Dist::Zilla::Plugin::Git::NextVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
-
 
 __PACKAGE__->meta->make_immutable;
 no Moose;

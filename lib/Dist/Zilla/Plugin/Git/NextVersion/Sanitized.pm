@@ -1,5 +1,7 @@
+use 5.008;    # utf8
 use strict;
 use warnings;
+use utf8;
 
 package Dist::Zilla::Plugin::Git::NextVersion::Sanitized;
 
@@ -24,7 +26,7 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 
 
-use Moose;
+use Moose qw( extends with );
 extends 'Dist::Zilla::Plugin::Git::NextVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';
 

@@ -1,5 +1,21 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
+0.002000 2014-07-13T23:00:16Z
+ [00 Major]
+ - Packaging changes that might affect downstreams that work by hand.
+
+ [01 Tooling]
+ - Switched to EUMM ( https://questhub.io/realm/perl/quest/5388cc12bbd0be5b2500011f )
+ - Using softened dependencies for toolchain in recommends instead of requires
+
+ [Dependencies::Stats]
+ - Dependencies changed since 0.001000, see misc/*.deps* for details
+ - build: -1
+ - configure: +1 -1 (recommends: +1)
+ - develop: +7 -8 (suggests: +2 -1)
+ - runtime: +1 ↑1
+ - test: +4 ↓1 (recommends: +4)
+
 0.001000 2013-12-01T10:42:14Z
  - First version.
 

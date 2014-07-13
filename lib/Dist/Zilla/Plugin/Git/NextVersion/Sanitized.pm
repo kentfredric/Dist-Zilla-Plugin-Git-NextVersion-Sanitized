@@ -5,7 +5,7 @@ use utf8;
 
 package Dist::Zilla::Plugin::Git::NextVersion::Sanitized;
 
-our $VERSION = '0.002000';
+our $VERSION = '0.002001';
 
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
 
@@ -47,7 +47,7 @@ Dist::Zilla::Plugin::Git::NextVersion::Sanitized - Sanitize versions handed to y
 
 =head1 VERSION
 
-version 0.002000
+version 0.002001
 
 =head1 SYNOPSIS
 

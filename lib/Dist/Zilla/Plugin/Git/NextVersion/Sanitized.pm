@@ -2,14 +2,22 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::Git::NextVersion::Sanitized;
-BEGIN {
-  $Dist::Zilla::Plugin::Git::NextVersion::Sanitized::AUTHORITY = 'cpan:KENTNL';
-}
-{
-  $Dist::Zilla::Plugin::Git::NextVersion::Sanitized::VERSION = '0.001000';
-}
-
+$Dist::Zilla::Plugin::Git::NextVersion::Sanitized::VERSION = '0.001001';
 # ABSTRACT: Sanitize versions handed to you by Git::NextVersion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 use Moose;
@@ -34,7 +42,7 @@ Dist::Zilla::Plugin::Git::NextVersion::Sanitized - Sanitize versions handed to y
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 
@@ -55,7 +63,7 @@ Kent Fredric <kentfredric@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2014 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

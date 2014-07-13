@@ -4,6 +4,7 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  [Added / develop requires]
  - Dist::Zilla::Plugin::Git::NextRelease
  - Dist::Zilla::Plugin::Git::NextVersion::Sanitized
+ - Dist::Zilla::Plugin::MakeMaker
  - Dist::Zilla::Plugin::Prereqs::Recommend::MatchInstalled
  - Dist::Zilla::Plugin::Test::ReportPrereqs
 
@@ -13,7 +14,9 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
 
  [Removed / develop requires]
  - Dist::Zilla::Plugin::Git::NextVersion
+ - Dist::Zilla::Plugin::ModuleBuild
  - Dist::Zilla::Plugin::NextRelease
+ - Dist::Zilla::Plugin::Prereqs::MatchInstalled
  - Dist::Zilla::Plugin::ReportVersions::Tiny
  - Dist::Zilla::PluginBundle::Author::KENTNL 2.006001
  - version 0.9901

@@ -2,10 +2,11 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
 
 0.001001
  [Added / develop requires]
+ - Dist::Zilla::Plugin::BumpVersionAfterRelease
  - Dist::Zilla::Plugin::Git::NextRelease
- - Dist::Zilla::Plugin::Git::NextVersion::Sanitized
  - Dist::Zilla::Plugin::MakeMaker
  - Dist::Zilla::Plugin::Prereqs::Recommend::MatchInstalled
+ - Dist::Zilla::Plugin::RewriteVersion::Sanitized
  - Dist::Zilla::Plugin::Test::ReportPrereqs
 
  [Added / develop suggests]
@@ -16,6 +17,7 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  - Dist::Zilla::Plugin::Git::NextVersion
  - Dist::Zilla::Plugin::ModuleBuild
  - Dist::Zilla::Plugin::NextRelease
+ - Dist::Zilla::Plugin::PkgVersion
  - Dist::Zilla::Plugin::Prereqs::MatchInstalled
  - Dist::Zilla::Plugin::ReportVersions::Tiny
  - Dist::Zilla::PluginBundle::Author::KENTNL 2.006001

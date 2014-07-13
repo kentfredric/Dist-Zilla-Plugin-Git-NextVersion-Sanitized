@@ -1,6 +1,8 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
 {{$NEXT}}
+
+0.002000 2014-07-13T23:00:16Z
  [00 Major]
  - Packaging changes that might affect downstreams that work by hand.
 

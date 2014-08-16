@@ -11,21 +11,6 @@ our $VERSION = '0.002001';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 use Moose qw( extends with );
 extends 'Dist::Zilla::Plugin::Git::NextVersion';
 with 'Dist::Zilla::Role::Version::Sanitize';

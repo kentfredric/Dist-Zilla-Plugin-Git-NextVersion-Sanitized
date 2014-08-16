@@ -11,6 +11,15 @@ our $VERSION = '0.002001';
 
 # AUTHORITY
 
+use Moose qw( extends with );
+extends 'Dist::Zilla::Plugin::Git::NextVersion';
+with 'Dist::Zilla::Role::Version::Sanitize';
+
+__PACKAGE__->meta->make_immutable;
+no Moose;
+
+1;
+
 =head1 SYNOPSIS
 
 This exist, mostly because I accidentally keep doing
@@ -25,12 +34,3 @@ So this wraps L<< C<::Role::Version::Sanitize>|Dist::Zilla::Role::Version::Sanit
 L<< C<[Git::NextVersion]>|Dist::Zilla::Plugin::Git::NextVersion >>
 
 =cut
-
-use Moose qw( extends with );
-extends 'Dist::Zilla::Plugin::Git::NextVersion';
-with 'Dist::Zilla::Role::Version::Sanitize';
-
-__PACKAGE__->meta->make_immutable;
-no Moose;
-
-1;

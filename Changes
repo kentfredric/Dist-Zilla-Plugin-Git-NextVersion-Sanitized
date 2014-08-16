@@ -16,6 +16,9 @@ Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
  [Metadata]
  - migrate to kentnl org
 
+ [Misc]
+ - Improve source side POD to reduce build side whitespace.
+
  [Tests]
  - update Test::ReportPrereqs
 

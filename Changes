@@ -1,6 +1,6 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
-0.002001 2014-08-16T03:45:40Z
+0.002001 2014-08-16T03:46:40Z
  [00 Trivial]
  - CPANDAY!
  - no code changes.
@@ -15,6 +15,9 @@ Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
  [Metadata]
  - migrate to kentnl org
+
+ [Misc]
+ - Improve source side POD to reduce build side whitespace.
 
  [Tests]
  - update Test::ReportPrereqs

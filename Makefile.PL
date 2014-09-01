@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker ;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Sanitize versions handed to you by Git::NextVersion",
-  "AUTHOR" => "Kent Fredric <kentfredric\@gmail.com>",
+  "AUTHOR" => "Kent Fredric <kentnl\@gmail.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
@@ -28,11 +28,16 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "Dist::Zilla::Util::Test::KENTNL" => "1.003001",
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
+    "Git::Wrapper::Plus::Support" => 0,
+    "Git::Wrapper::Plus::Tester" => 0,
+    "Test::DZil" => 0,
+    "Test::Fatal" => 0,
     "Test::More" => "0.89"
   },
-  "VERSION" => "0.002001",
+  "VERSION" => "0.002002",
   "test" => {
     "TESTS" => "t/*.t t/00-compile/*.t"
   }
@@ -42,9 +47,14 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Dist::Zilla::Plugin::Git::NextVersion" => 0,
   "Dist::Zilla::Role::Version::Sanitize" => 0,
+  "Dist::Zilla::Util::Test::KENTNL" => "1.003001",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "Git::Wrapper::Plus::Support" => 0,
+  "Git::Wrapper::Plus::Tester" => 0,
   "Moose" => 0,
+  "Test::DZil" => 0,
+  "Test::Fatal" => 0,
   "Test::More" => "0.89",
   "strict" => 0,
   "utf8" => 0,

@@ -3,7 +3,7 @@ NAME
     handed to you by Git::NextVersion
 
 VERSION
-    version 0.002001
+    version 0.002002
 
 SYNOPSIS
     This exist, mostly because I accidentally keep doing
@@ -17,7 +17,7 @@ SYNOPSIS
     So this wraps "::Role::Version::Sanitize" around "[Git::NextVersion]"
 
 AUTHOR
-    Kent Fredric <kentfredric@gmail.com>
+    Kent Fredric <kentnl@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2014 by Kent Fredric

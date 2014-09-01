@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker ;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Sanitize versions handed to you by Git::NextVersion",
-  "AUTHOR" => "Kent Fredric <kentfredric\@gmail.com>",
+  "AUTHOR" => "Kent Fredric <kentnl\@gmail.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },

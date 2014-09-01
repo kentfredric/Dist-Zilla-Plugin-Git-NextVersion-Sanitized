@@ -17,7 +17,7 @@ SYNOPSIS
     So this wraps "::Role::Version::Sanitize" around "[Git::NextVersion]"
 
 AUTHOR
-    Kent Fredric <kentfredric@gmail.com>
+    Kent Fredric <kentnl@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2014 by Kent Fredric

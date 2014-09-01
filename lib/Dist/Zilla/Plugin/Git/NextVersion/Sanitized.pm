@@ -49,7 +49,7 @@ L<< C<[Git::NextVersion]>|Dist::Zilla::Plugin::Git::NextVersion >>
 
 =head1 AUTHOR
 
-Kent Fredric <kentfredric@gmail.com>
+Kent Fredric <kentnl@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

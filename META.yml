@@ -1,7 +1,7 @@
 ---
 abstract: 'Sanitize versions handed to you by Git::NextVersion'
 author:
-  - 'Kent Fredric <kentfredric@gmail.com>'
+  - 'Kent Fredric <kentnl@gmail.com>'
 build_requires:
   Dist::Zilla::Util::Test::KENTNL: '1.003001'
   ExtUtils::MakeMaker: '0'
@@ -617,3 +617,5 @@ x_Dist_Zilla:
       is_trial: '0'
     version: '5.020'
 x_authority: cpan:KENTNL
+x_contributors:
+  - 'Kent Fredric <kentnl@cpan.org>'

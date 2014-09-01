@@ -1,9 +1,16 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
 {{$NEXT}}
+ [00 Minor]
+ - Add tests
+
  [Dependencies::Stats]
  - Dependencies changed since 0.002001, see misc/*.deps* for details
  - develop: +1 ↑1 (suggests: ↑2)
+ - test: +5
+
+ [Tests]
+ - tests for basic tag+bump and env normalisation added.
 
 0.002001 2014-08-16T03:46:40Z
  [00 Trivial]

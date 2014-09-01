@@ -3,7 +3,7 @@ use warnings;
 
 use Test::More;
 
-# ABSTRACT: test basic normalisation
+# ABSTRACT: test env normalisation from v-prefixed dotted decimal
 use Test::Fatal;
 use Git::Wrapper::Plus::Tester;
 use Git::Wrapper::Plus::Support;
@@ -26,7 +26,7 @@ $test->add_file(
 );
 my $t = Git::Wrapper::Plus::Tester->new( repo_dir => $test->tempdir );
 my $s = Git::Wrapper::Plus::Support->new( git => $t->git );
-delete $ENV{V};
+$ENV{V} = 'v1.2';
 $t->run_env(
   sub {
     my $git = $t->git;
@@ -46,7 +46,7 @@ $t->run_env(
 
     $test->build_ok;
 
-    is( $test->builder->version, '0.020000', 'Version normalises from bumped tag as expected' );
+    is( $test->builder->version, '1.002000', 'Sanitises dotted decimal' );
     note explain $test->builder->log_messages;
   }
 );

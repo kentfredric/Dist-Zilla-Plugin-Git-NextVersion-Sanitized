@@ -24,6 +24,8 @@ t/00-report-prereqs.dd
 t/00-report-prereqs.t
 t/basic.t
 t/normalise_env.t
+t/normalise_env_dotted.t
+t/normalise_env_vdotted.t
 weaver.ini
 xt/author/critic.t
 xt/release/cpan-changes.t

@@ -3,8 +3,6 @@ use warnings;
 
 use Test::More;
 
-# FILENAME: basic.t
-# CREATED: 09/01/14 12:38:04 by Kent Fredric (kentnl) <kentfredric@gmail.com>
 # ABSTRACT: test basic normalisation
 use Test::Fatal;
 use Git::Wrapper::Plus::Tester;
@@ -28,7 +26,7 @@ $test->add_file(
 );
 my $t = Git::Wrapper::Plus::Tester->new( repo_dir => $test->tempdir );
 my $s = Git::Wrapper::Plus::Support->new( git => $t->git );
-delete $ENV{V};
+$ENV{V} = '0.04';
 $t->run_env(
   sub {
     my $git = $t->git;
@@ -48,7 +46,7 @@ $t->run_env(
 
     $test->build_ok;
 
-    is( $test->builder->version, '0.020000', 'Version bumps and normalises from tag as expected' );
+    is( $test->builder->version, '0.040000', 'Version normalises from env as expected' );
     note explain $test->builder->log_messages;
   }
 );

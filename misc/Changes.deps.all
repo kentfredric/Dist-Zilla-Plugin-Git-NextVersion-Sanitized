@@ -4,6 +4,13 @@ This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL depen
  [Added / develop requires]
  - Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes 0.001001
 
+ [Added / test requires]
+ - Dist::Zilla::Util::Test::KENTNL 1.003001
+ - Git::Wrapper::Plus::Support
+ - Git::Wrapper::Plus::Tester
+ - Test::DZil
+ - Test::Fatal
+
  [Changed / develop requires]
  - Test::Kwalitee 1.12 → 1.21
 

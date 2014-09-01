@@ -21,7 +21,7 @@ So this wraps [`::Role::Version::Sanitize`](https://metacpan.org/pod/Dist::Zilla
 
 # AUTHOR
 
-Kent Fredric <kentfredric@gmail.com>
+Kent Fredric <kentnl@gmail.com>
 
 # COPYRIGHT AND LICENSE
 

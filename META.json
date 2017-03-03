@@ -131,7 +131,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::Git::NextVersion::Sanitized" : {
          "file" : "lib/Dist/Zilla/Plugin/Git/NextVersion/Sanitized.pm",
-         "version" : "0.002003"
+         "version" : "0.002004"
       }
    },
    "release_status" : "stable",
@@ -146,7 +146,7 @@
          "web" : "https://github.com/kentnl/Dist-Zilla-Plugin-Git-NextVersion-Sanitized"
       }
    },
-   "version" : "0.002003",
+   "version" : "0.002004",
    "x_BuiltWith" : {
       "external_file" : "misc/built_with.json"
    },
@@ -664,7 +664,7 @@
                   "branch" : null,
                   "changelog" : "Changes",
                   "signed" : 0,
-                  "tag" : "0.002003-source",
+                  "tag" : "0.002004-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v"
                },
@@ -758,7 +758,7 @@
                   "branch" : "releases",
                   "changelog" : "Changes",
                   "signed" : 0,
-                  "tag" : "0.002003",
+                  "tag" : "0.002004",
                   "tag_format" : "%v",
                   "tag_message" : "v%v"
                },

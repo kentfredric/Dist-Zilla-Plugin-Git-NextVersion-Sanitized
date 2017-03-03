@@ -1,5 +1,7 @@
 Release history for Dist-Zilla-Plugin-Git-NextVersion-Sanitized
 
+0.002004 2017-03-03T11:36:49Z 6308061
+
 0.002003 2017-03-03T10:34:25Z 57a0ef0
  [Bugfix]
  - Avoid test failures on 5.26 w/ -Ddefault_inc_excludes_dot
